@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Rubik Storm', cursive;
+    text-align: center;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(test.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.paragraph{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.paragraph p{
+    font-size: 30px;
+}
+
+.back a{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    transition: 0.9s ease;
+    color: #fff;
+}
+
+.back a{
+    text-decoration: none;
+    transition: 0.9s ease;
+}
+
+.back a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+}

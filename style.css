@@ -1,0 +1,230 @@
+/*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(test.jpg);*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Rubik Storm', cursive;
+    text-align: center;
+}
+
+.header1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px transparent;
+    transition: 0.9s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn1{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    transition: 0.9s ease;
+    border-radius: 10px;
+}
+
+.btn2{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.9s ease;
+    border-radius: 10px;
+}
+
+.btn1:hover{
+    background: transparent;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.btn2:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+}
+
+.title2 h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.title2{
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn3{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    transition: 0.9s ease;
+}
+
+.btn4{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.9s ease;
+}
+
+.btn3:hover{
+    background: transparent;
+    color: #fff;
+}
+
+.btn4:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.button2{
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.header2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(test.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.paragraph{
+    text-align: center;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.paragraph p{
+    color: #fff;
+    font-size: 150%;
+}
+
+.faq a{
+    text-align: center;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.9s ease;
+}
+
+.backtotop a{
+    transition: 0.9s ease
+}
+
+.backtotop a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+}
+
+.backtotop a{
+    text-align: center;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 185%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.backtotop a{
+    transition: 0.9s ease
+}
+
+.backtotop a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.faq a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+}
